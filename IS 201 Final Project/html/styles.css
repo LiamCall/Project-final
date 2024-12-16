@@ -1,0 +1,105 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Background */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #E0F7FA;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+#header {
+    background: url('https://example.com/surfing-header.jpg') no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    padding: 50px 0;
+    color: white;
+}
+
+#header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+#header p {
+    font-size: 1.5em;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #00796B;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
+
+/* Section Styles */
+section {
+    margin: 40px 0;
+    padding: 20px;
+}
+
+.content-block {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.content-block h2 {
+    font-size: 2em;
+    color: #00796B;
+}
+
+.content-block p, .content-block ul {
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+/* List and ordered list styles */
+ul, ol {
+    margin-top: 15px;
+    padding-left: 20px;
+}
+
+ul li, ol li {
+    margin-bottom: 10px;
+}
+
+/* YouTube Video Embedding */
+iframe {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #00796B;
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 1em;
+}
